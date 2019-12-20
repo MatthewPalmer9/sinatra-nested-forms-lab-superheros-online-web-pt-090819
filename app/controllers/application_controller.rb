@@ -16,7 +16,6 @@ class App < Sinatra::Base
       end
 
       @super_heroes = SuperHero.all
-      binding.pry
       erb :team
     end
 
